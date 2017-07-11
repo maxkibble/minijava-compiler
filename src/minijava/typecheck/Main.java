@@ -21,8 +21,8 @@ public class Main {
  
     public static void main(String[] args) {
     	try {
-			InputStream is = System.in;
-			//InputStream is = new FileInputStream("./tests/check/test100.java");
+			//InputStream is = System.in;
+			InputStream is = new FileInputStream("./tests/check/test100.java");
 			Node root = new MiniJavaParser(is).Goal();
 			root.accept(new SymbolTableVisitor(),MClassList.instance);
 			//System.out.println("Symbol table built");

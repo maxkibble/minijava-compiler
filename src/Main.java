@@ -10,7 +10,7 @@ import spiglet.spiglet2kanga.Spg2Kan;
 public class Main {
 	public static void main(String[] args) {
 		try {
-			InputStream in = new FileInputStream("MoreThan4.java");
+			InputStream in = new FileInputStream("tests/MoreThan4.java");
 			//PrintStream out = new PrintStream("MoreThan4.asm");
 			//InputStream in = System.in;
 			PrintStream out = System.out;
