@@ -21,3 +21,5 @@ run src/Main.java
 You can choose to generate different intermediate code by specifying different Main functions under src/ directory.
 
 There are 3 types of intermediate code: *.pg, *.spg, *.kg (In generation order). They represent different phases of compilation.
+
+For more implementation details, you can read the pdf file in report/ directory.
