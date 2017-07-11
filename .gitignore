@@ -1,0 +1,11 @@
+.idea/
+.DS_Store
+.classpath
+.project
+.settings/
+bin/
+classes/
+*.asm
+*.kg
+*.spg
+*.pg
